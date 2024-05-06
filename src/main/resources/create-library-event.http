@@ -1,0 +1,12 @@
+### Send POST request with json body
+POST http://localhost:8080/v1/libraryevent
+Content-Type: application/json
+
+{
+  "libraryEventId": null,
+  "book": {
+    "bookId": 123,
+    "bookName": "Kafka using Spring Boot",
+    "bookAuthor": "Dilip"
+  }
+}
