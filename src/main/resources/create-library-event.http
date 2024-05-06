@@ -4,8 +4,9 @@ Content-Type: application/json
 
 {
   "libraryEventId": null,
+  "libraryEventType": "NEW",
   "book": {
-    "bookId": 123,
+    "bookId": 456,
     "bookName": "Kafka using Spring Boot",
     "bookAuthor": "Dilip"
   }
